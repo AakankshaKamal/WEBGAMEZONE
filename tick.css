@@ -1,0 +1,153 @@
+
+.container{
+	width: 450px;
+	height:450px;
+	display:block;
+	margin:50px auto;
+	position: relative;
+	background:rgba(0, 128, 0, 0.1);
+	box-shadow: 0 0 50px 50px;
+}
+#cvs {
+ position:relative;
+  
+ }
+/*#cvs canvas { position:absolute; top:0; left:0; z-index:0 }
+*/
+.options   
+ {
+ 	margin:10px 10px 10px 10px;
+ position:absolute; top:20px; 
+ left:10px;
+  }
+  .options div{
+  	display: inline-block;
+  }
+.options h1{
+	text-align: center;
+	font-size:45px;
+	color: #f00;
+
+	margin:10px 0 20px 0;
+}
+.options h2{
+	text-align: center;
+	background-color: #3EB7C0FF;
+border-radius:30px;
+	
+	}
+
+
+	.hide{
+		display: none;
+	}
+	.o{
+		background-color:#1939E5FF;
+		height:70px;
+
+
+	}
+	.x{
+		background-color:#E72317FF;
+		height:70px;
+	}
+	
+	.options .computer, .x{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+ 
+    color: #000;
+    box-shadow: 10px 10px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-left: 50px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.options .friend, .o{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+ 
+    color: #000;
+    box-shadow: 10px 10px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.options .friend:hover, .computer:hover{
+    background-color: #011627;
+    color: #FFF;
+}
+.options .x:hover,.o:hover{
+	color:transparent;
+}
+.options .play{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    width: 70%;
+    display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+    border: 1px solid #011627;
+    text-align: center;
+    padding: 10px;
+    background-color: #011627;
+    color: #FFF;
+    cursor: pointer;
+    transition: 100ms width ease-in-out;
+}
+.options .play:hover{
+    width: 110px;
+}
+
+.active{
+    background-color: #F509AF ;
+    color: #FFF;
+}
+.gameover{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: ##ECEA12FF;
+    
+
+}
+.gameover h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Fascinate Inline', cursive;
+    color: #EE1;
+    margin: 40px 0 20px 0;
+}
+#demo{
+	margin-top:20px;
+}
+button {
+	position:50%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #FF0;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #13E;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
