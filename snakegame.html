@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+</head>
+
+<div>
+	WIDTH OF BOARD : <input type="number" id="widthc" value="700"><br>
+	HEIGHT OF BOARD :<input type="number" id="heightc" value="700">
+	<input type="submit" value="OK"name="OKbtn" onclick="change()">
+
+	<br>
+	<br>
+	<hr>
+	<button id="start" onclick="Start()">START</button>
+	
+		<button id="playagain" onclick="reloadf()">PLAY AGAIN</button>
+	<br>
+ <canvas id="canvas" width="700 px" height="700 px"></canvas>
+</div>>
+<body class="w3-container w3-flat-pumpkin">
+
+  <script src="scripts/game.js"></script>
+
+ 
+	
+  <p id="demo"></p>
+
+	<style type="text/css">
+		canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}
+
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #FF0;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #13E;
+}
+#start{
+	background-color: #24DACE;
+}
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+	</style>
+</body>
+</html>
